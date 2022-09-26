@@ -71,8 +71,8 @@ skip-grant-tables
 * Start MySQL in XAMPP.
 * Go to the database admin at localhost/phpmyadmin.
 * Go to Import tab.
-* Download [db.sql](https://drive.google.com/file/d/15YsOx3r5ggKC994W_Eop8JNMyewR2GO8/view).
-* Click "Choose file" and choose "[db.sql](https://drive.google.com/file/d/15YsOx3r5ggKC994W_Eop8JNMyewR2GO8/view)".
+* Download [db (new).sql](https://drive.google.com/file/d/15YsOx3r5ggKC994W_Eop8JNMyewR2GO8/view).
+* Click "Choose file" and choose db (new).sql.
 
 ### Server
 In order to run the application in Django, do the following in your command prompt:
