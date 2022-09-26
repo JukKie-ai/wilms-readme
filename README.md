@@ -10,6 +10,14 @@
 	- [Techno Tools](#techno-tools)
 - [Requirements](#requirements)
 - [Installation](#installation)
+	- [Modules](#modules)
+	- [Database](#database)
+	- [Server](#server)
+	- [WILMS System Credentials](#wilms-system-credentials)
+		- [Admin Credentials](#admin-credentials)
+		- [Instructor and Student Credentials](#instructor-and-student-credentials)
+- [Contributors](#contributors)
+- [Contact us](#contact-us)
 ------------
 # Services
 - Licensing and Technology Commercialization
@@ -81,6 +89,50 @@ pip install schedule
 python manage.py migrate
 python manage.py runserver
 ```
+### WILMS System Credentials
+#### Admin Credentials
+    username: jrama
+    password: Tbipassword123
+#### Instructor and Student Credentials
+
+	    INSTRUCTOR 2
+    username: instructor2acct
+    password: Tbipassword123
+    
+	    STUDENT	2 - 3 - 4
+	username: student2acct
+	password: Tbipassword123
+	
+	username: student3acct
+	password: Tbipassword123
+	
+	username: student4acct
+	password: Tbipassword123
+	-------------------------
+	    INSTRUCTOR 3
+    username: instructor3acct
+    password: Tbipassword123
+    
+	    STUDENT	5 - 6 - 7
+	username: student5acct
+	password: Tbipassword123
+	
+	username: student6acct
+	password: Tbipassword123
+	
+	username: student7acct
+	password: Tbipassword123
+
+    
+    
+
 ------------
 # Contributors
 ![Wild Pack](https://raw.githubusercontent.com/JukKie-ai/wilms-readme/main/wild%20pack.jpg)
+
+# Contact Us
+Should you have concerns, we are reachable via the following:
+* Back End Support: Jay Vince Serato - jayvince.serato@gmail.com
+* Front End Support: Pinkfloyd Adonay - pinkfloyd.adonay@gmail.com
+
+Happy coding! 🎉
