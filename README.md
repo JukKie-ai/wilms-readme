@@ -31,3 +31,21 @@
     django==3.1.14
     python-decouple>=3.1
     Pillow>=5.1.0
+    gunicorn
+    django-heroku
+    sendgrid
+    django-scheduler
+    django-tempus-dominus
+    django-star-ratings
+    django-datatables-view
+    django-cron
+    django-multiselectfield
+    requests
+    xlwt
+    mysqlclient
+    openpyxl
+    beautifulsoup4
+    django-bootstrap-modal-forms
+    beautifulsoup4
+    schedule
+
