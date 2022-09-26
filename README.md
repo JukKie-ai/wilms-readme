@@ -1,7 +1,6 @@
 # WILDCAT INNOVATION LABS
-**Where ventures thrive and ideas come alive**
 ------------
-![WILMS LOGO](https://raw.githubusercontent.com/JukKie-ai/wilms-readme/main/w4.c1a6d8d7161b.png)
+![WILMS banner](https://raw.githubusercontent.com/JukKie-ai/wilms-readme/main/banner.jpg)
 ------------
 # Table of Contents
 - [WILDCAT INNOVATION LABS](#wildcat-innovation-labs)
@@ -82,3 +81,6 @@ pip install schedule
 python manage.py migrate
 python manage.py runserver
 ```
+------------
+# Contributors
+![Wild Pack](https://raw.githubusercontent.com/JukKie-ai/wilms-readme/main/wild%20pack.jpg)
