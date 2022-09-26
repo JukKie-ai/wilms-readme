@@ -1,5 +1,5 @@
 # WILDCAT INNOVATION LABS
-** Where ventures thrive and ideas come alive **
+**Where ventures thrive and ideas come alive**
 
 ------------
 
