@@ -1,7 +1,7 @@
 # WILDCAT INNOVATION LABS
 **Where ventures thrive and ideas come alive**
 ------------
-![enter image description here](https://raw.githubusercontent.com/carlvcordova/newWILMS/master/staticfiles/img/w3.png?token=GHSAT0AAAAAABWLBFDN2RBUUET6YBUP2ZYSYZRII2A)
+![WILMS LOGO](https://raw.githubusercontent.com/JukKie-ai/wilms-readme/main/w4.c1a6d8d7161b.png)
 ------------
 **Table of Contents**
 - [WILDCAT INNOVATION LABS](#wildcat-innovation-labs)
