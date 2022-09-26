@@ -3,7 +3,7 @@
 ------------
 ![WILMS LOGO](https://raw.githubusercontent.com/JukKie-ai/wilms-readme/main/w4.c1a6d8d7161b.png)
 ------------
-**Table of Contents**
+# Table of Contents
 - [WILDCAT INNOVATION LABS](#wildcat-innovation-labs)
 - [Services](#services)
 - [Infrastructure Software](#infrastructure-software)
