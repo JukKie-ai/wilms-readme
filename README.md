@@ -9,6 +9,8 @@
 - [Infrastructure Software](#infrastructure-software)
 	- [WILMS](#wilms-efficient-operation)
 	- [Techno Tools](#techno-tools)
+- [Requirements](#requirements)
+- [Installation](#installation)
 ------------
 # Services
 - Licensing and Technology Commercialization
@@ -28,6 +30,7 @@
 
 ------------
 # Requirements
+
     django==3.1.14
     python-decouple>=3.1
     Pillow>=5.1.0
@@ -48,4 +51,34 @@
     django-bootstrap-modal-forms
     beautifulsoup4
     schedule
+  ------------
+   # Installation
+   ### Modules
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required modules for this app.
 
+```bash
+pip install -r requirements.txt
+```
+### Database
+You would also need to have [XAMPP](https://www.apachefriends.org/download.html) for the database.
+After installing XAMPP, do the following tasks:
+* Before Starting MySQL, click the "Config" button and choose "my.ini".
+* Under [mysqld], add the following line, typically at line 45:
+```text
+skip-grant-tables
+```
+* Save the file.
+* Start MySQL in XAMPP.
+* Go to the database admin at localhost/phpmyadmin.
+* Go to Import tab.
+* Download [db.sql](https://drive.google.com/file/d/15YsOx3r5ggKC994W_Eop8JNMyewR2GO8/view).
+* Click "Choose file" and choose "[db.sql](https://drive.google.com/file/d/15YsOx3r5ggKC994W_Eop8JNMyewR2GO8/view)".
+
+### Server
+In order to run the application in Django, do the following in your command prompt:
+```bash
+pip uninstall schedule
+pip install schedule
+python manage.py migrate
+python manage.py runserver
+```
