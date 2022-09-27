@@ -40,6 +40,7 @@
 
  - [Django](https://www.djangoproject.com/download/)
  - [Visual Studio Code](https://code.visualstudio.com/Download)
+ - [XAMPP](https://www.apachefriends.org/download.html)
 
   ------------
    # Installation
@@ -50,7 +51,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 pip install -r requirements.txt
 ```
 ### Database
-You would also need to have [XAMPP](https://www.apachefriends.org/download.html) for the database.
+You would also need to have XAMPP for the database.
 After installing XAMPP, do the following tasks:
 * Before Starting MySQL, click the "Config" button and choose "my.ini".
 * Under [mysqld], add the following line, typically at line 45:
