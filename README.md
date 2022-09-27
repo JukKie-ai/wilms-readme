@@ -10,6 +10,7 @@
 	- [Techno Tools](#techno-tools)
 - [Requirements](#requirements)
 - [Installation](#installation)
+	- [Cloning the repository](#cloning-the-repository)
 	- [Modules](#modules)
 	- [Database](#database)
 	- [Server](#server)
@@ -38,12 +39,25 @@
 ------------
 # Requirements
 
- - [Django](https://www.djangoproject.com/download/)
- - [Visual Studio Code](https://code.visualstudio.com/Download)
- - [XAMPP](https://www.apachefriends.org/download.html)
+ 1. [Git](https://git-scm.com/downloads)
+ 2. [Django](https://www.djangoproject.com/download/)
+ 3. [Visual Studio Code](https://code.visualstudio.com/Download)
 
   ------------
    # Installation
+   ### Cloning the repository
+   1. On [newWILMS](https://github.com/jurydelrama/newWILMS), navigate to the main page of the repository.
+   2. Above the list of files, click **Code**.
+   3. Copy the URL for the repository.
+   4. Open  Git Bash.
+   5. Change the current working directory to the location where you want the cloned directory.
+   6. Type `git clone`, and then paste the URL you copied earlier.
+   
+
+    $ git clone https://github.com/jurydelrama/newWILMS.git
+    
+   7. Press **Enter** to create your local clone.
+
    ### Modules
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required modules for this app.
 
@@ -51,7 +65,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 pip install -r requirements.txt
 ```
 ### Database
-You would also need to have XAMPP for the database.
+You would also need to have [XAMPP](https://www.apachefriends.org/download.html) for the database.
 After installing XAMPP, do the following tasks:
 * Before Starting MySQL, click the "Config" button and choose "my.ini".
 * Under [mysqld], add the following line, typically at line 45:
@@ -66,6 +80,7 @@ skip-grant-tables
 * Download [db (new).sql](https://drive.google.com/file/d/15YsOx3r5ggKC994W_Eop8JNMyewR2GO8/view).
 * Go to ***db*** -> Import tab.
 * Click "Choose file" and choose **db (new).sql**.
+
 ### Server
 In order to run the application in Django, do the following in your command prompt:
 ```bash
