@@ -42,6 +42,7 @@
  1. [Git](https://git-scm.com/downloads)
  2. [Django](https://www.djangoproject.com/download/)
  3. [Visual Studio Code](https://code.visualstudio.com/Download)
+ 4.  [XAMPP](https://www.apachefriends.org/download.html)
 
   ------------
    # Installation
@@ -57,6 +58,9 @@
     $ git clone https://github.com/jurydelrama/newWILMS.git
     
    7. Press **Enter** to create your local clone.
+	   - Please make sure that your repository is finish cloning
+   9. `cd newWILMS`
+   10. `code .`
 
    ### Modules
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required modules for this app.
@@ -65,7 +69,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 pip install -r requirements.txt
 ```
 ### Database
-You would also need to have [XAMPP](https://www.apachefriends.org/download.html) for the database.
+You would also need to have XAMPP for the database.
 After installing XAMPP, do the following tasks:
 * Before Starting MySQL, click the "Config" button and choose "my.ini".
 * Under [mysqld], add the following line, typically at line 45:
