@@ -60,11 +60,12 @@ skip-grant-tables
 ```
 * Save the file.
 * Start MySQL in XAMPP.
-* Go to the database admin at localhost/phpmyadmin.
-* Go to Import tab.
+* Go to the **database** admin at [localhost/phpmyadmin](http://localhost/phpmyadmin/).
+	* Create a new database
+	*  **Database Name:**  *db*
 * Download [db (new).sql](https://drive.google.com/file/d/15YsOx3r5ggKC994W_Eop8JNMyewR2GO8/view).
-* Click "Choose file" and choose db (new).sql.
-
+* Go to ***db*** -> Import tab.
+* Click "Choose file" and choose **db (new).sql**.
 ### Server
 In order to run the application in Django, do the following in your command prompt:
 ```bash
